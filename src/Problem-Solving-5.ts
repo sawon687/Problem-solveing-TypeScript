@@ -21,5 +21,20 @@ const numberArr: number[] = [1, 2, 2, 3, 4, 4];
 
 
 
+//option
+
+
+const newArry=numberArr.reduce<number[]>((acc,arr)=>{
+   if(!acc.includes(arr))
+   {
+       acc.push(arr)
+   }
+   return acc
+},[])
+
+
+console.log(newArry)
+
+
 
 
