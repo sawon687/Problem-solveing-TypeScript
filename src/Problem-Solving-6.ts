@@ -14,7 +14,7 @@
 // Output:
 // [0, 1]
 
-
+// two sum function
 const twoSum=(array:number[],target:number)=>{
    
     for(let i=0;i<array.length; i++)
